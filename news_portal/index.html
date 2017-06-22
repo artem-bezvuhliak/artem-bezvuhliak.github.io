@@ -1,0 +1,502 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title></title>
+		<script src="js/jquery-1.7.2.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/search.css">
+		<link rel="stylesheet" type="text/css" href="css/slider.css">
+		<link rel="stylesheet" type="text/css" href="css/gallery.css">
+		<link rel="stylesheet" type="text/css" href="css/media-queries.css">
+		<script type="text/javascript" src="js/header.js"></script>
+		<script type="text/javascript" src="js/slider.js"></script>
+		<script type="text/javascript" src="js/gallery.js"></script>
+		<!--[if lt IE 9]
+	    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+	<body>
+		<div class="wrapper"><!--===============Start wrapper=================--> 
+	
+			<header class="header"><!--===========Start header===========-->	
+				<div class="upper-menu">
+					<div class="upper-menu-info">
+						<a href="#" class="logo"><img src="img/logo.jpg" alt="Логотип" width="50" height="50"></a>
+						<div class="upper-menu-date info">
+							<p>Monday</p>
+							<p>29 may,2017</p>
+						</div>
+						<div class="upper-menu-wheather info">
+							<p><img src="img/rain.png">New York</p>
+							<p>+25 С</p>
+						</div>
+						<div class="upper-menu-valuta info">
+							<span><img src="img/arrow-green.png">&#8364; 29.75</span>
+							<span><img src="img/arrow-red.png">$ 26.45</span>
+						</div>
+					</div>
+					<div class="upper-menu-btns">
+						<div class="upper-menu-search">
+							<div id="wrap">
+								<form action="" autocomplete="on">
+									<input id="search" class="search" name="search" type="text" placeholder="">
+									<input id="search_submit" class="search-sbmt" value="Rechercher" type="submit">
+								</form>
+							</div>
+						</div>
+						<div class="upper-menu-share">
+							<a href="#"><img src="img/share.png"></a>
+						</div>
+					</div>
+				</div>
+
+				<div id="slider-wrap"><!--=========Start slider=======-->	
+					<div id="slider">
+						<div class="slide">
+							<figure>
+								<img src="img/slide1.jpeg">
+								<figcaption class="slide-info">
+									<h1 class="slide-info-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci eius </h1>
+									<p class="slide-info-date">Day 29 травня, 2017 14:05</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="slide">
+							<figure>
+								<img src="img/slide2.jpeg">
+								<figcaption class="slide-info">
+									<h1 class="slide-info-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci eius</h1>
+									<p class="slide-info-date">World 29 травня, 2017 19:00</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="slide">
+							<figure>
+								<img src="img/slide3.jpeg">
+								<figcaption class="slide-info">
+									<h1 class="slide-info-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci eius</h1>
+									<p class="slide-info-date">World 29 травня, 2017 12:47</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="slide">
+							<figure>
+								<img src="img/slide4.jpeg">
+								<figcaption class="slide-info">
+									<h1 class="slide-info-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci eius</h1>
+									<p class="slide-info-date">World 29 травня, 2017 12:11</p>
+								</figcaption>
+							</figure>
+						</div>
+						<div class="slide">
+							<figure>
+								<img src="img/slide5.jpeg">
+								<figcaption class="slide-info">
+									<h1 class="slide-info-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam adipisci eius</h1>
+									<p class="slide-info-date">World 29 травня, 2017 12:11</p>
+								</figcaption>
+							</figure>
+						</div>
+					</div>
+				</div><!--============End slider==========-->	
+			</header><!--============End header==========-->	
+			<main class="main">
+				<div class="top-menu">
+					<ul class="top-menu-container">
+						<li class="ukraine"><a href="#" class="top-menu-item-link">Ukraine</a></li>
+						<li class="politics"><a href="#" class="top-menu-item-link">Politics</a></li>
+						<li class="video"><a href="#" class="top-menu-item-link">Video</a></li>
+						<li class="episodes"><a href="#" class="top-menu-item-link">Episodes</a></li>
+						<li class="blogs"><a href="#" class="top-menu-item-link">Blogs</a></li>
+						<li class="prosport"><a href="#" class="top-menu-item-link">Sport</a></li>
+						<li class="glamour"><a href="#" class="top-menu-item-link">Glamour</a></li>
+						<li class="ledi"><a href="#" class="top-menu-item-link">Ledi</a></li>
+						<li class="interesting"><a href="#" class="top-menu-item-link">Interesting</a></li>
+						<li class="specproject"><a href="#" class="top-menu-item-link">Projects</a></li>
+						<li class="all-chapters all"><a href="#" class="top-menu-item-link"><img src="img/burger-menu.png">All</a></li>
+					</ul>
+				</div>
+	
+				<section class="news"><!-- ============Start news section============= -->
+					<div class="news-nav">
+						<span class="news-nav-item">Main event</span>
+						<span class="news-nav-item">Popular</span>
+						<span class="news-nav-item">Comments</span>
+					</div>
+					<div class="news-container">
+						<div class="news-row">
+							<div class="news-item">
+								<img src="img/news1.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae </a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">28 may, 2017 08:51</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news2.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimo</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Glamour</a>
+										<span class="news-date">28 may, 2017 07:23</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">2</li>
+										<li class="news-views"><img src="img/views.png">1025</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news3.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimo</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Glamour</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">8</li>
+										<li class="news-views"><img src="img/views.png">2005</li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+
+						<div class="news-row">
+							<div class="news-item">
+								<img src="img/news4.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimo</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Money</a>
+										<span class="news-date">28 may, 2017 08:51</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news5.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">8</li>
+										<li class="news-views"><img src="img/views.png">2005</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news6.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimose</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section><!-- ============ End news section ============= -->
+	
+				<div class="photo-gallery"><!-- ==========Start photo-gallery============ -->
+					<p class="photo-gallery-tittle">Фото репортаж</p>
+					<div class="photo-gallery-content">
+						<div class="photo-gallery-items" style="top: 0; left: 0;">
+							<img src="img/photo-report/photo10.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 177px; left: 0;">
+							<img src="img/photo-report/photo6.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 354px; left: 0;">
+							<img src="img/photo-report/photo5.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 0; left: 354px;">
+							<img src="img/photo-report/photo9.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 177px; left: 177px;">
+							<img src="img/photo-report/photo7.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 355px; left: 354px;">
+							<img src="img/photo-report/photo4.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 0; left: 532px;">
+							<img src="img/photo-report/photo8.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 177px; left: 532px;">
+							<img src="img/photo-report/photo1.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 354px; left: 532px;">
+							<img src="img/photo-report/photo2.jpg">
+						</div>
+						<div class="photo-gallery-items" style="top: 0; left: 705px;">
+							<img src="img/photo-report/photo3.jpg">
+						</div>
+					</div>
+				</div><!-- ==========End photo-gallery=========== -->
+
+				<div class="gallery-container"><!-- ==========Start gallery=========== -->
+					<div class="gallery">
+					    <div class="close-icon"></div>
+					    <div class="main-images">
+					      <img src="img/gallery/pic1.jpg" width="570" height="340">
+					    </div>
+
+					    <div class="thumbs">
+					      <a href=""><img src="img/gallery/pic1.jpg" class="image active-img" width="120" height="80"></a>
+					      <a href=""><img src="img/gallery/pic2.jpg" class="image" width="120" height="80"></a>
+					      <a href=""><img src="img/gallery/pic4.jpg" class="image" width="120" height="80"></a>
+					      <a href=""><img src="img/gallery/pic5.jpg" class="image" width="120" height="80"></a>
+					      <a href=""><img src="img/gallery/pic6.jpg" class="image" width="120" height="80"></a>
+					    </div>
+					</div>
+				</div><!-- ==========End gallery=========== -->
+
+				<div class="banner"></div>	<!-- ================Banner================ -->
+	
+				<section class="news"> <!-- ==========Start news section=========== -->
+					<div class="news-container">
+						<div class="news-row">
+							<div class="news-item">
+								<img src="img/news1.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">28 may, 2017 08:51</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news2.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Ukraine</a>
+										<span class="news-date">28 may, 2017 07:23</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">2</li>
+										<li class="news-views"><img src="img/views.png">1025</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news3.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Glamour</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">8</li>
+										<li class="news-views"><img src="img/views.png">2005</li>
+									</ul>
+								</div>
+							</div>
+						</div>	
+						
+						<div class="news-row">
+							<div class="news-item">
+								<img src="img/news4.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">Money</a>
+										<span class="news-date">28 may, 2017 08:51</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news5.jpg">
+								<h4><a href="#" class="news-item-tittle">ФLorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">8</li>
+										<li class="news-views"><img src="img/views.png">2005</li>
+									</ul>
+								</div>
+							</div>
+							<div class="news-item">
+								<img src="img/news6.jpg">
+								<h4><a href="#" class="news-item-tittle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa magni dignissimos quae</a></h4>
+								<div class="post-news">
+									<div class="news-info">
+										<a href="" class="news-heading">World</a>
+										<span class="news-date">27 may, 2017 22:18</span>
+									</div>	
+									<ul class="news-stats">
+										<li class="news-comments"><img src="img/comments.png">31</li>
+										<li class="news-views"><img src="img/views.png">3015</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</section><!-- ==========End news section=========== -->
+			</main>
+	
+			<aside class="aside"><!-- ============Start sidebar========= -->
+				<h2 class="aside-tittle">Last news</h2>
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">17:22</span>
+				</article> 
+
+				<article class="aside-item" style="border: none;">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">17:03</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:58</span>
+				</article> 
+
+				<article class="aside-item">
+					<img src="img/glamour2.jpg" width="290">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">ВLorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">17:22</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:02</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor sit amet,  adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:47</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor sit amet, consectetur adipisicing </a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">15:13</span>
+				</article> 
+
+				<article class="aside-item">
+					<img src="img/glamour1.jpg" width="290">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 тmay, 2017</a>
+					<span class="aside-item-time">15:03</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link bold">Lorem , consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:58</span>
+				</article> 
+
+				<article class="aside-item">
+					<img src="img/glamour2.jpg" width="290">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">17:22</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link bold">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio et eveniet quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:02</span>
+				</article> 
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum elit. Odio et eveniet quassit amet, consectetur adipisicing </a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">16:47</span>
+				</article> 
+
+				<article class="aside-item">
+					<h4 class="aside-item-tittle">
+						<a href="#" class="aside-item-tittle-link">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio  quas</a>
+					</h4>
+					<a href="" class="aside-item-date">29 may, 2017</a>
+					<span class="aside-item-time">15:13</span>
+				</article> 
+
+				<span class="download-more">Download more<img src="img/download.png"></span>	
+
+			</aside><!-- ============End sidebar========= -->
+			
+			<footer class="footer"><!-- =============Start footer========== -->
+					<ul class="footer-logos">
+						<li class="footer-logos-item"><a href="#" target="_blank"><img src="img/footer-logo/ebay.png" alt="Ebay" width="75" height="45"></a></li>
+						<li class="footer-logos-item"><a href="#" target="_blank"><img src="img/footer-logo/google.png" alt="Google" width="80" height="25"></a></li>
+						<li class="footer-logos-item"><a href="#" target="_blank"><img src="img/footer-logo/sega.png" alt="Sega" width="70" height="23"></a></li>
+						<li class="footer-logos-item"><a href="#" target="_blank"><img src="img/footer-logo/master-card.png" alt="Master-Card" width="60" height="40"></a></li>
+						<li class="footer-logos-item"><a href="#" target="_blank"><img src="img/footer-logo/hp.png" alt="HP" width="40" height="40"></a></li>
+					</ul>
+				<div class="footer-text">
+					BREAKING NEWS
+				</div>
+				<div class="footer-date">
+					2017
+				</div>
+			</footer><!-- =============End footer========== -->
+		</div><!--===============End wrapper=================-->
+		
+	</body>
+</html>

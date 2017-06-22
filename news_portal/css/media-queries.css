@@ -1,0 +1,37 @@
+@media screen and (max-width: 1400px) {
+  .wrapper {
+   	width: 100%;
+  }
+  .main {
+  	width: 1250px;
+  }
+}
+@media screen and (max-width: 1350px) {
+ 	.ukraine ,.politics ,.video ,.tsn ,
+	.blogs ,.prosport ,.glamur ,
+	.ledi ,.interesting ,.specproject ,
+	.all-chapters {
+		padding-right: 0;
+	}
+
+	.wrapper, .upper-menu, .photo-gallery, #slider-wrap, .top-menu {
+   		width: 80vw;
+    }
+}
+@media screen and (max-width: 1300px;) {
+	.news-row {
+		width: 70%;
+	}
+}
+@media screen and (max-width: 990px;) {
+	.aside-banner {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 990px;) {
+	.aside-item-banner {
+		display: none;
+	}	
+}
+
