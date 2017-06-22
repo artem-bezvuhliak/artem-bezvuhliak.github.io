@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="ToDo">
+  <head>
+  	<meta charset="UTF-8">
+  	<title>ToDo List on AngularJS</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100|Roboto:300,700" rel="stylesheet">
+  </head>
+  <body>
+
+    <h1>AngularJS ToDo List</h1>
+    <div class="application">
+      <div ng-controller="todoController" class="app-content">
+        <div class="app-form">
+          <form name="frm" ng-submit="addTodo()">
+            <div class="app-form-items">
+               <input type="text" name="newtodo" ng-model="newTodo" required class="app-form-items__text">
+               <button ng-disabled="frm.$invalid" class="app-btn">ADD TASK</button> 
+            </div>
+          </form>
+        </div>
+        <div class="app-tasks">
+          <ul class="task-container">
+              <li ng-repeat="todo in todos | orderBy:'title' track by todo.id" class="task">
+                <label class="task-content">
+                  <input type="checkbox" ng-model="todo.done" class="task-checkbox">
+                  <span ng-class="{'done':todo.done}" class="task-new-checkbox">{{todo.title}}</span>
+                  <input type="image" name="" ng-click="delete(todo.id)" src="img/close.png" class="task-close-btn">
+                </label>
+              </li>
+          </ul>
+        </div>
+        <button ng-click="clearCompleted()" class="app-btn delete" ng-disabled="!todos.length">DELETE COMPLETED</button>
+
+      </div>
+    </div>
+      
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+     <script src="js/app.js"></script>
+     <script src="js/generate.js"></script>
+     <script src="js/todoItem.js"></script>
+  </body>
+</html>
