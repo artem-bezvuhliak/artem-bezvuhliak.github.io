@@ -55,3 +55,35 @@
 		font-size: 40px;
 	}
 }
+@media all and (max-width: 375px) {
+	.intro__btn {
+		width: 75%;
+	}
+	.intro__text {
+    	font-size: 30px;
+	}
+	.content-sub-text {
+		padding-left: 8%;
+		width: 95%;
+		height: 80px;
+		font-size: 12px;
+	}
+	.content-main-text {
+		padding-left: 7%;
+		font-size: 14px;
+	}
+	.footer {
+		font-size: 10px;
+	}
+	.contacts-list__item {
+		padding-left: 5px;
+    	padding-right: 5px;
+	}
+	.intro__btn {
+		margin: 40px 0 70px 0;
+	}
+	.intro__img {
+		margin: 50px 0 40px 0
+	}
+
+}
